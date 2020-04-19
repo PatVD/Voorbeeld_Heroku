@@ -1,0 +1,17 @@
+<%- include('header'); -%>
+
+<h2>MAKE YOUR SELECTION</h2>
+<div class="button-group filters-button-group">
+<button class="button" data-filter=".electronic">ELECTRONIC</button>
+<button class="button" data-filter=".analogue">ANALOGUE</button>
+<button class="button" data-filter=".all">ALL</button>
+</div>
+
+<div class="grid">
+<% for(let i=0; i<blog.length; i++) { %>
+    <div class="grid-item <%=blog[i].classes%>"><img src="<%=blog[i].img%>" alt="<%=blog[i].alt%>"></img><h1 class="title"><%=blog[i].title%></h1><p class="description"><%=blog[i].description%></p><p class="date"><%=blog[i].date%></p></div>
+<% } %>
+</div>
+
+
+<%- include('footer'); -%>

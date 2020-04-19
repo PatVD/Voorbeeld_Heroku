@@ -1,0 +1,65 @@
+
+{
+  "images": [{
+    "img": "/images/Record_1.jpg",
+    "classes": "analogue all",
+    "title": "The Universe Smiles Upon You",
+    "description": "Pressed on 180 gram white vinyl with a custom hand drawn gatefold sleeve by bassist Laura Lee.",
+    "date": "2016",
+    "detail": "Once in a while you stumble upon a band that blows you away with such unexpected freshness and brilliance, that you're convinced they'll conquer the world in a matter of weeks. I'm still waiting, but Khruangbin is such a band. Consisting of only three the band makes intimate music that somehow sounds larger than a passing parade. Celebrating life, traveling and good company. With 'White Glove' as a lovely tribute to a deceased feline. Majestic happy little clouds they are. Favorite track: Mr. White."
+    },{
+    "img": "/images/Record_2.jpg",
+    "classes": "analogue all",
+    "title": "Suss Highline",
+    "description": "High Line represents a new path into the high country for the NYC ambient country quintet known as SUSS.",
+    "date": "2019"
+    },{
+    "img": "/images/Record_3.jpg",
+    "classes": "electronic all",
+    "title": "Shred",
+    "description": "The second album on Ilian Tape comes again out of Munich city; Skee Mask delivers 12 tracks that range from the sound of a peaceful and energetic place.",
+    "date": "2016"
+    },{
+    "img": "/images/Record_4.jpg",
+    "classes": "electronic all",
+    "title": "Untrue",
+    "description": "Untrue is the second studio album by British electronic music producer Burial. Released on 5 November 2007 by Hyperdub.",
+    "date": "2007"
+    },{
+    "img": "/images/Record_5.jpg",
+    "classes": "electronic all",
+    "title": "8",
+    "description": "There are two different versions each of Interlude, Darkspirit Cut, Cut 06, Pulsierendes Leben and Planet Uterus.",
+    "date": "2016"
+    },{
+    "img": "/images/Record_6.jpg",
+    "classes": "electronic all",
+    "title": "Music For Nine Post Cards",
+    "description": "The album was home-recorded with a keyboard and Fender Rhodes. In the liner notes Yoshimura stated that he was inspired by “the movements of clouds.",
+    "date": "1982"
+    },{
+    "img": "/images/Record_7.jpg",
+    "classes": "analogue all",
+    "title": "Playing Piano For Dad",
+    "description": "Recorded in one comfortably-seated take at Studio Ferber, Paris, France, 2015; dedicated to dad.",
+    "date": "2016"
+    },{
+    "img": "/images/Record_8.jpg",
+    "classes": "analogue all",
+    "title": "Lightnin' Strikes",
+    "description": "Lightnin' Strikes (reissued as Nothin' But the Blues) is an album by blues musician Lightnin' Hopkins recorded in Los Angeles in 1965.",
+    "date": "1965"
+    },{
+    "img": "/images/Record_9.jpg",
+    "classes": "analogue all",
+    "title": "Sissoko & Sissoko",
+    "description": "The Sissokos form a whole, one piece, a sum of knowledge, practice, tradition, innovation, creativity rooted in a dynastic heritage.",
+    "date": "2019"
+    },{
+    "img": "/images/Record_10.jpg",
+    "classes": "analogue all",
+    "title": "On The Go",
+    "description": "WINNER OF THE BEST JAZZ ALBUM OF THE YEAR - Gilles Peterson Worldwide Awards, 2012",
+    "date": "2011"
+    }]
+}

@@ -1,0 +1,309 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  margin:0;
+}
+
+main {
+  margin-top: 200px;
+}
+
+li {
+  list-style-type: none;
+  display:inline-block;
+  width: 230px;
+  font-size: 2em;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+  padding:20px;
+}
+
+a:hover {
+  color: #131B47;
+}
+
+header {
+  background-color: black;
+	color: #131B47;
+	text-align: center;
+	padding: 10px 0 20px;
+  margin-bottom: 100px;
+}
+
+.titel {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 65px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: .8;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+div .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:1px;
+}
+
+.grid-item { width: 45%; margin-left: 30px;}
+
+  .overview {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 90px;
+}
+
+.grid-item-overview {
+   width: 30%;
+   display:inline-block;
+   vertical-align: top;
+}
+
+.grid-item-detail {
+   width: 100%;
+   display:inline-block;
+   vertical-align: top;
+}
+
+
+
+
+.seemore {
+  color:darkblue;
+  width:180px;
+  float:right;
+  font-size: 1.5em;
+  margin-top:20px;
+}
+
+.button-group  {
+  margin-bottom: 50px;
+  margin-left:auto;
+  margin-right: auto;
+  width:460px;
+}
+
+.button {
+  width:150px;
+  height: 50px;
+  background-color: black;
+  color:white;
+  font-size: 1.1em;
+}
+
+img {
+  width:100%;
+}
+
+
+  span{
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: 25px;
+    line-height: 1;
+  }
+
+.spotlight {
+    font-size:3em;
+    text-align: center;
+}
+
+.pdetail {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+.h2welcome {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  font-size: 3em;
+}
+
+p {
+  text-align: center;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.title {
+  width:400px;
+  color:white;
+  background-color: black;
+  height:20px;
+  font-size: 1em;
+  text-align: left;
+  padding-left:20px;
+  margin-bottom:none;
+}
+
+.detailtitle {
+  width:400px;
+  color:white;
+  background-color: black;
+  height:50px;
+  font-size: 2em;
+  text-align: center;
+}
+
+.description {
+  width:300px;
+  color:black;
+  font-size: 1em;
+  text-align: left;
+  padding:0px;
+  margin-bottom:none;
+}
+
+
+.detaildescription {
+  width:800px;
+  color:black;
+  font-size: 0.69em;
+  text-align: justify;
+  padding:0px;
+  margin-bottom:none;
+}
+
+.date {
+  width:400px;
+  color:black;
+  font-size: 1em;
+  font-style: italic;
+  text-align: left;
+  padding:0px;
+  margin-bottom:none;
+}
+
+footer{
+	color: #EC8A5E;
+  text-align: center;
+  float: left;
+  padding:100px;
+  margin-top: 240px;
+}
+
+
+
+form {
+  max-width:800px; margin:50px auto;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.form {
+  font-size: 3em;
+}
+.feedback-input {
+  color:#131B47;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 40px;
+  background-color: transparent;
+  border:2px solid #131B47;
+  padding: 13px;
+  margin-bottom: 40px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus {
+  border:2px solid #131B47;
+}
+
+textarea {
+  height: 200px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  width: 100%;
+  background:#a5ffd2;
+  border-radius:5px;
+  border:0;
+  color:white;
+  font-size:30px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover {
+  background:#ffb1a5;
+}
+
+.grid-item--width2 { width: 50%; }
+
+
+.navbar {
+  overflow: hidden;
+  font-family: Arial;
+}
+
+.navbar a {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  margin-right:70px;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 30px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #a5ffd2;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
